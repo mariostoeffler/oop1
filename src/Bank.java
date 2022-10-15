@@ -1,8 +1,8 @@
 public class Bank {
     public static void main(String[] args) {
-        Gehaltskonto peter1 = new Gehaltskonto("PeterZwegat", "29302342039429", "600000");
-        Gehaltskonto peter12 = new Gehaltskonto("PeterZwegat", "2930234203942921", "6000002");
-        Gehaltskonto peter123 = new Gehaltskonto("PeterZwegat", "2930234203942913", "6000003");
+        Gehaltskonto peter1 = new Gehaltskonto("PeterZwegat1", "29302342039429", "600000");
+        Gehaltskonto peter12 = new Gehaltskonto("PeterZwegat2", "2930234203942921", "6000002");
+        Gehaltskonto peter123 = new Gehaltskonto("PeterZwegat3", "2930234203942913", "6000003");
 
 
         peter12.aufbuchen(234223);

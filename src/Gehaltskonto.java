@@ -61,8 +61,6 @@ public class Gehaltskonto {
 
     @Override
     public String toString() {
-        return "Gehaltskonto{" +
-                "kontostand=" + kontostand +
-                '}';
+        return "Kontostand = " + kontostand;
     }
 }
